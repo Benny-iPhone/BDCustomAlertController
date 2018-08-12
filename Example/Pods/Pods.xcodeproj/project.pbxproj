@@ -45,29 +45,29 @@
 
 /* Begin PBXFileReference section */
 		00B8BD1C4F7A61524D7E17D82A2BECD6 /* Pods-BDCustomAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCustomAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		097CBF61C13007001C5F11E800F0C02A /* BDCustomAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BDCustomAlertController.framework; path = BDCustomAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		097CBF61C13007001C5F11E800F0C02A /* BDCustomAlertController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BDCustomAlertController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C2D6A2662D55ED038933B7FE24DA0ED /* Pods-BDCustomAlertController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCustomAlertController_Example-resources.sh"; sourceTree = "<group>"; };
 		1336DF0778EAF051BFDCC00C74000DEF /* Pods-BDCustomAlertController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCustomAlertController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		154A66AC717B1A0A6A13E2DA1958ECD0 /* UIAlertController+tintColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+tintColor.h"; sourceTree = "<group>"; };
 		1DD63093357F29362D18F9E842DA6CC6 /* UIAlertAction+undocumentedImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+undocumentedImage.m"; sourceTree = "<group>"; };
 		210D573C8449C8D0AEC691A539D72EE8 /* Pods-BDCustomAlertController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BDCustomAlertController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		25F4A357E9A7995BA155BA4A2F7BF642 /* Pods_BDCustomAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDCustomAlertController_Example.framework; path = "Pods-BDCustomAlertController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F4A357E9A7995BA155BA4A2F7BF642 /* Pods_BDCustomAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDCustomAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5D5E6ED995D156C992724D8BA7EB8C /* BDCustomAlertController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BDCustomAlertController.xcconfig; sourceTree = "<group>"; };
-		3485DE3157FDE9463C7C4E49EC35A578 /* Pods_BDCustomAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BDCustomAlertController_Tests.framework; path = "Pods-BDCustomAlertController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3485DE3157FDE9463C7C4E49EC35A578 /* Pods_BDCustomAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BDCustomAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E1AF1729C2E66BE8A0329BB4902BA68 /* UIAlertController+tintColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+tintColor.m"; sourceTree = "<group>"; };
 		4262269272981A73BEC94EB2C4ADAA6F /* Pods-BDCustomAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCustomAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		48BF3AABD4267E5C13BCD007079151A5 /* Pods-BDCustomAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BDCustomAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		4AE1ECFDDCBAB86B4CA5AADB106CD98C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4AE1ECFDDCBAB86B4CA5AADB106CD98C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5AA2AF53C490369D6EC4347781149540 /* Pods-BDCustomAlertController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BDCustomAlertController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		66AA19E4F91E51BFC7CF0535F44CDC09 /* Pods-BDCustomAlertController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BDCustomAlertController_Example-umbrella.h"; sourceTree = "<group>"; };
 		6821F5297E4C73E71CC32C19AB89BDDB /* BDCustomAlertController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BDCustomAlertController-prefix.pch"; sourceTree = "<group>"; };
-		72D06542576F66F8BB39B26CEFE388AD /* BDCustomAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = BDCustomAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		72D06542576F66F8BB39B26CEFE388AD /* BDCustomAlertController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = BDCustomAlertController.podspec; sourceTree = "<group>"; };
 		7B6600B1BA31D79C7D35DC6B454685E7 /* Pods-BDCustomAlertController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDCustomAlertController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8A73CE79A1B37DCE42060472959BEBF3 /* Pods-BDCustomAlertController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BDCustomAlertController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8C385517C697B36F96C85A5A681DC52F /* UIAlertAction+customContent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+customContent.m"; sourceTree = "<group>"; };
 		93497433ACE0CC54DFFCFCD86C1FFD19 /* Pods-BDCustomAlertController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDCustomAlertController_Example-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9901F971014A8FCB29FCBDBDD0FFBE8B /* Pods-BDCustomAlertController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BDCustomAlertController_Example.modulemap"; sourceTree = "<group>"; };
 		9B43A9AAEC3AAFAF5E2FC73F0164EDC3 /* UIAlertAction+undocumentedImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+undocumentedImage.h"; sourceTree = "<group>"; };
 		A7EA7759B3AEC09D06462F926AF8DF62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		ADE14979364FA54F124387B9839AE94E /* UIAlertController+DatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+DatePicker.h"; sourceTree = "<group>"; };
 		B594DDFD9A948D49947D4FE281051E58 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA269C693AACCB91C57CA05BCECA9E2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB3605EC45F483BFDA62D176D662A832 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BB3605EC45F483BFDA62D176D662A832 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C729B142FFA45ED259E4FD0F6C28A2FF /* UIAlertController+DatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+DatePicker.m"; sourceTree = "<group>"; };
 		C8D8FAFA2ADE7D8DD10D8A120BE6EDF3 /* BDCustomAlertController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BDCustomAlertController.modulemap; sourceTree = "<group>"; };
 		D0C5CF878F0A7BBBC4A1255AD4CEC79B /* Pods-BDCustomAlertController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BDCustomAlertController_Tests-dummy.m"; sourceTree = "<group>"; };
@@ -122,7 +122,6 @@
 				154A66AC717B1A0A6A13E2DA1958ECD0 /* UIAlertController+tintColor.h */,
 				3E1AF1729C2E66BE8A0329BB4902BA68 /* UIAlertController+tintColor.m */,
 			);
-			name = TintColor;
 			path = TintColor;
 			sourceTree = "<group>";
 		};
@@ -258,7 +257,6 @@
 				F4D641048D0187BD26553779B69BCB21 /* UIAlertAction+customContent.h */,
 				8C385517C697B36F96C85A5A681DC52F /* UIAlertAction+customContent.m */,
 			);
-			name = Custom;
 			path = Custom;
 			sourceTree = "<group>";
 		};
@@ -268,7 +266,6 @@
 				9B43A9AAEC3AAFAF5E2FC73F0164EDC3 /* UIAlertAction+undocumentedImage.h */,
 				1DD63093357F29362D18F9E842DA6CC6 /* UIAlertAction+undocumentedImage.m */,
 			);
-			name = Image;
 			path = Image;
 			sourceTree = "<group>";
 		};
@@ -286,7 +283,6 @@
 				ADE14979364FA54F124387B9839AE94E /* UIAlertController+DatePicker.h */,
 				C729B142FFA45ED259E4FD0F6C28A2FF /* UIAlertController+DatePicker.m */,
 			);
-			name = DatePicker;
 			path = DatePicker;
 			sourceTree = "<group>";
 		};

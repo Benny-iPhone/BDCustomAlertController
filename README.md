@@ -5,6 +5,23 @@
 [![License](https://img.shields.io/cocoapods/l/BDCustomAlertController.svg?style=flat)](https://cocoapods.org/pods/BDCustomAlertController)
 [![Platform](https://img.shields.io/cocoapods/p/BDCustomAlertController.svg?style=flat)](https://cocoapods.org/pods/BDCustomAlertController)
 
+## What does it do?
+
+**UIAlertAction**
+
+- Display an UIImage within UIAlertAction using actionWithTitle:image:style:handler:
+
+- Display Image and Text using your prefered layout (leader or trailing) by invoking actionWithCustomContent:handler:
+
+**UIAlertController**
+
+- Computed Tint Color
+
+- Date Picker as Cotent View Controller
+
+- More Content Options will be added as you request
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -22,7 +39,7 @@ pod 'BDCustomAlertController'
 
 ## Author
 
-benny.davidovitz@gmail.com, benny.davidovitz@gmail.com
+Benny Davidovitz 
 
 ## License
 

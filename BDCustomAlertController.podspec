@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BDCustomAlertController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BDCustomAlertController.'
+  s.summary          = 'Cusomizable UIAlertController and UIAlertAction for nice and easy display.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+
+- UIAlertAction with image and custom content (image and text for now)
+- UIAlertController with date picker
+
                        DESC
 
-  s.homepage         = 'https://github.com/benny.davidovitz@gmail.com/BDCustomAlertController'
+  s.homepage         = 'https://github.com/Benny-iPhone/BDCustomAlertController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'benny.davidovitz@gmail.com' => 'benny.davidovitz@gmail.com' }
-  s.source           = { :git => 'https://github.com/benny.davidovitz@gmail.com/BDCustomAlertController.git', :tag => s.version.to_s }
+  s.author           = { 'Benny Davidovitz' => 'benny.davidovitz@gmail.com' }
+  s.source           = { :git => 'https://github.com/Benny-iPhone/BDCustomAlertController.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
