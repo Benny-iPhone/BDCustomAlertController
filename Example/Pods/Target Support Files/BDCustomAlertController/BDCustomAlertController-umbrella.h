@@ -10,6 +10,10 @@
 #endif
 #endif
 
+#import "UIAlertAction+customContent.h"
+#import "UIAlertAction+undocumentedImage.h"
+#import "UIAlertController+DatePicker.h"
+#import "UIAlertController+tintColor.h"
 
 FOUNDATION_EXPORT double BDCustomAlertControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char BDCustomAlertControllerVersionString[];

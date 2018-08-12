@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,7 +20,91 @@
                     <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="LZE-hc-toq">
+                                <rect key="frame" x="16" y="32" width="343" height="204.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIAlertAction Utils" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHa-xN-cjs">
+                                        <rect key="frame" x="101.5" y="0.0" width="140.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l67-xz-gNG">
+                                        <rect key="frame" x="87" y="36.5" width="169" height="30"/>
+                                        <state key="normal" title="Alert with image in items"/>
+                                        <connections>
+                                            <action selector="alertWithImageInItemsAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="03q-5q-STf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmG-e9-mW9">
+                                        <rect key="frame" x="83" y="82.5" width="177" height="30"/>
+                                        <state key="normal" title="Alert with custom content"/>
+                                        <connections>
+                                            <action selector="alertWithCustomContentAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="JIA-5z-IlM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VlL-3H-Iza">
+                                        <rect key="frame" x="59.5" y="128.5" width="224" height="30"/>
+                                        <state key="normal" title="Action Sheet with image in items"/>
+                                        <connections>
+                                            <action selector="alertWithImageInItemsAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="kBY-NU-cQD"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQ3-ul-d8h">
+                                        <rect key="frame" x="55.5" y="174.5" width="232" height="30"/>
+                                        <state key="normal" title="Action Sheet with custom content"/>
+                                        <connections>
+                                            <action selector="alertWithCustomContentAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="DT0-Sz-Psb"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0lc-cT-YeJ">
+                                <rect key="frame" x="16" y="252" width="343" height="1"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Lnb-8U-E8B"/>
+                                </constraints>
+                            </view>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="cnP-Vx-apo">
+                                <rect key="frame" x="16" y="277.5" width="343" height="112.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UIAlertController Utils" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cq7-tt-VmL">
+                                        <rect key="frame" x="88" y="0.0" width="167.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="otQ-TB-nqZ">
+                                        <rect key="frame" x="62.5" y="36.5" width="218" height="30"/>
+                                        <state key="normal" title="Alert Controller with date picker"/>
+                                        <connections>
+                                            <action selector="alertControllerWithDatePickerAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="3Gt-DZ-gCT"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zh3-ci-7Iw">
+                                        <rect key="frame" x="89.5" y="82.5" width="164" height="30"/>
+                                        <state key="normal" title="Alert Controller with tint"/>
+                                        <connections>
+                                            <action selector="alertWithTintAction:" destination="whP-gf-Uak" eventType="touchUpInside" id="WvH-yA-sun"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LZE-hc-toq" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leading" constant="16" id="2wr-cU-HfT"/>
+                            <constraint firstItem="0lc-cT-YeJ" firstAttribute="leading" secondItem="LZE-hc-toq" secondAttribute="leading" id="AbA-nq-QBJ"/>
+                            <constraint firstItem="cnP-Vx-apo" firstAttribute="top" secondItem="0lc-cT-YeJ" secondAttribute="bottom" constant="24" id="Zjd-fX-E4n"/>
+                            <constraint firstItem="0lc-cT-YeJ" firstAttribute="trailing" secondItem="LZE-hc-toq" secondAttribute="trailing" id="aLV-5u-hFS"/>
+                            <constraint firstItem="0lc-cT-YeJ" firstAttribute="top" secondItem="LZE-hc-toq" secondAttribute="bottom" constant="16" id="doe-d9-G6Z"/>
+                            <constraint firstItem="cnP-Vx-apo" firstAttribute="leading" secondItem="0lc-cT-YeJ" secondAttribute="leading" id="gvj-Kp-Syt"/>
+                            <constraint firstAttribute="trailing" secondItem="LZE-hc-toq" secondAttribute="trailing" constant="16" id="jFr-ZS-Ftw"/>
+                            <constraint firstItem="cnP-Vx-apo" firstAttribute="trailing" secondItem="0lc-cT-YeJ" secondAttribute="trailing" id="kr9-ig-ksw"/>
+                            <constraint firstItem="LZE-hc-toq" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="12" id="vu8-JV-IER"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
