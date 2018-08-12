@@ -1,0 +1,6 @@
+framework module BDCustomAlertController {
+  umbrella header "BDCustomAlertController-umbrella.h"
+
+  export *
+  module * { export * }
+}

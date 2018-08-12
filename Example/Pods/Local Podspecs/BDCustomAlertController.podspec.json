@@ -1,0 +1,22 @@
+{
+  "name": "BDCustomAlertController",
+  "version": "0.1.0",
+  "summary": "A short description of BDCustomAlertController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/benny.davidovitz@gmail.com/BDCustomAlertController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "benny.davidovitz@gmail.com": "benny.davidovitz@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/benny.davidovitz@gmail.com/BDCustomAlertController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BDCustomAlertController/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - BDCustomAlertController (0.1.0)
+
+DEPENDENCIES:
+  - BDCustomAlertController (from `../`)
+
+EXTERNAL SOURCES:
+  BDCustomAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BDCustomAlertController: 29ebf27355d4040829445ac4f15ef15f5c7e569f
+
+PODFILE CHECKSUM: 3a64ca3413e8bed9d7ad2848522b181163906fb0
+
+COCOAPODS: 1.5.3

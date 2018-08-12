@@ -1,0 +1,6 @@
+framework module Pods_BDCustomAlertController_Example {
+  umbrella header "Pods-BDCustomAlertController_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
