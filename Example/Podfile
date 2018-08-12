@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BDCustomAlertController_Example' do
+  pod 'BDCustomAlertController', :path => '../'
+
+  target 'BDCustomAlertController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
