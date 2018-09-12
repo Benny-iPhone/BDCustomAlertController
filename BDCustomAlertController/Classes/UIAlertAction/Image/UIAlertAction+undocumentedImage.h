@@ -10,7 +10,7 @@
 
 @interface UIAlertAction (BDUndocumentedImage)
 
-+ (instancetype)actionWithTitle:(nullable NSString *)title image:(nullable UIImage *)image style:(UIAlertActionStyle)style handler:(void (^ __nullable)(UIAlertAction *action))handler;
++ (nonnull instancetype)actionWithTitle:(nullable NSString *)title image:(nullable UIImage *)image style:(UIAlertActionStyle)style handler:(void (^ __nullable)(UIAlertAction *action))handler;
 
 @property (nonatomic, strong, nullable) UIImage *image;
 

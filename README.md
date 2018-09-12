@@ -26,7 +26,45 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+##### Display an UIAlertAction with text and image
+
+```swift
+
+    func displayAlertActionWithImage(){
+        
+        let alert = UIAlertController(title: "yo!", message: "a message", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Your Text", image: UIImage(named: "your_image_name"), style: .default) { (_) in
+            //some code to handle the action
+        }
+        alert.addAction(action)
+        
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+
+```
+##### Display an UIAlertController with UIDatePicker
+
+```swift
+    func displayAlertWithDatePicker(){
+        let alert = UIAlertController(title: "yo!", message: "select a date messsage", preferredStyle: .alert)
+        alert.insertDatePicker { (datePicker) in
+            //config date picker as you like here
+        }
+        
+        alert.addAction(UIAlertAction(title: "Done", style: .default, handler: { (_) in
+            guard let datePicker = alert.datePicker() else{
+                return
+            }
+            
+            print("selected date is \(datePicker.date)")
+        }))
+        
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+
+```
 
 ## Installation
 

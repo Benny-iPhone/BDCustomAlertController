@@ -10,6 +10,17 @@
 
 @implementation UIAlertController (BDDatePicker)
 
+- (nullable UIDatePicker *)datePicker{
+    UIViewController *viewController = [self valueForKey:@"contentViewController"];
+    for (id subView in viewController.view.subviews) {
+        if ([subView isKindOfClass:[UIDatePicker class]]){
+            return subView;
+        }
+    }
+    
+    return nil;
+}
+
 - (void) insertDatePickerWithConfigHandler:(nullable UIAlertControllerDatePickerConfigHandler)configHandler
 {
     

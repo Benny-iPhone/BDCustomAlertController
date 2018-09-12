@@ -32,7 +32,7 @@ typedef NS_ENUM(NSInteger, UIAlertActionCustomContentLayout) {
 
 - (nullable UIAlertActionCustomContent *) content;
 
-+ (instancetype)actionWithCustomContent:(UIAlertActionCustomContent *)customContent handler:(void (^ __nullable)(UIAlertAction *action))handler;
++ (nonnull instancetype)actionWithCustomContent:(UIAlertActionCustomContent *)customContent handler:(void (^ __nullable)(UIAlertAction *action))handler;
 
 
 @end

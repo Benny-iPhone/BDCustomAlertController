@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BDCustomAlertController'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Cusomizable UIAlertController and UIAlertAction for nice and easy display.'
 
 # This description is used to generate tags and improve search results.

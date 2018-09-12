@@ -12,6 +12,7 @@ typedef void(^UIAlertControllerDatePickerConfigHandler)(UIDatePicker *datePicker
 
 @interface UIAlertController (BDDatePicker)
 
+- (nullable UIDatePicker *)datePicker;
 - (void) insertDatePickerWithConfigHandler:(nullable UIAlertControllerDatePickerConfigHandler)configHandler;
 
 @end
